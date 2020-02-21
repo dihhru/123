@@ -118,7 +118,6 @@ class Game {
       let n = Number(i) + 1;
       let div = document.createElement("div");
       let img = document.createElement("img");
-      console.log(n)
       img.className = "img";
       img.src = "./images/nym.png";
       div.className = "dropzone";
