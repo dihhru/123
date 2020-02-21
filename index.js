@@ -127,6 +127,7 @@ class Game {
       let randomN = randomInteger(1, 2);
       let id = `${n}` + randomN;
       div.onclick = function() {
+        console.log(id)
         if (_this.isStarted) {
           return;
         }
